@@ -70,4 +70,10 @@ public class Dados {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    @Override
+    public String toString() {
+
+        return "Confirmando dados: " + " ID: " + id + " nome: " + nome + " sobrenome: " + sobrenome + " telefone: " + telefone + " email: " + email;}
+    
 }
